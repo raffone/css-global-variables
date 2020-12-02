@@ -197,7 +197,7 @@
                 catch(e){
                     if( !_styleSheet.ownerNode.hasAttribute('css-global-vars-ignore' ) ){
                         _styleSheet.ownerNode.setAttribute('css-global-vars-ignore', true);
-                        console.warn('Cross Origin Policy restrictions are blocking the access to the CSS rules of a remote stylesheet. The affected stylesheet is going to be ignored by CSSGlobalVariables. Check the documentation for instructions to prevent this issue.');
+//                         console.warn('Cross Origin Policy restrictions are blocking the access to the CSS rules of a remote stylesheet. The affected stylesheet is going to be ignored by CSSGlobalVariables. Check the documentation for instructions to prevent this issue.');
                     }else{
                         console.warn('Unexpected error reading CSS properties.');
                     }
